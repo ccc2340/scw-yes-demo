@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yes-application-bms" />
+        <module name="yes-common-bean" />
+        <module name="yes-common-core" />
+        <module name="yes-common-feign" />
+        <module name="yes-common-service-concrete" />
+        <module name="yes-common-service-facade" />
+        <module name="yes-config-server" />
+        <module name="yes-eureka-server" />
+        <module name="yes-gateway" />
+        <module name="yes-whole-service-concrete" />
+        <module name="yes-whole-service-facade" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yes-application" options="-parameters" />
+      <module name="yes-application-bms" options="-parameters" />
+      <module name="yes-common" options="-parameters" />
+      <module name="yes-common-bean" options="-parameters" />
+      <module name="yes-common-core" options="-parameters" />
+      <module name="yes-common-feign" options="-parameters" />
+      <module name="yes-common-service" options="-parameters" />
+      <module name="yes-common-service-concrete" options="-parameters" />
+      <module name="yes-common-service-facade" options="-parameters" />
+      <module name="yes-config-server" options="-parameters" />
+      <module name="yes-eureka-server" options="-parameters" />
+      <module name="yes-gateway" options="-parameters" />
+      <module name="yes-infrastructure" options="-parameters" />
+      <module name="yes-service" options="-parameters" />
+      <module name="yes-whole-service-concrete" options="-parameters" />
+      <module name="yes-whole-service-facade" options="-parameters" />
+      <module name="yhy-ecp-system" options="-parameters" />
+    </option>
+  </component>
+</project>
